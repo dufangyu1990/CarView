@@ -154,7 +154,7 @@ public class MyCustomPanelView extends View {
         textPaint.setTextSize(30);
         mTextColor =Color.rgb(30,144,255);
         textPaint.setColor(mTextColor);
-        canvas.drawText(50 + "", mWidth / 2 - 20, mTikeWidth, textPaint);
+        canvas.drawText(50 + "", mWidth / 2, mTikeWidth, textPaint);
         //旋转的角度
         float rAngle = 250f/mTikeCount;
         canvas.save();
@@ -170,7 +170,7 @@ public class MyCustomPanelView extends View {
                         textPaint.setTextSize(mTextSize);
                         mTextColor =Color.rgb(30,144,255);
                         textPaint.setColor(mTextColor);
-                        canvas.drawText(50 + (i/ 5) * 10 + "", mWidth / 2-20, mTikeWidth , textPaint);
+                        canvas.drawText(50 + (i/ 5) * 10 + "", mWidth / 2, mTikeWidth , textPaint);
                     }
 
 
@@ -189,7 +189,7 @@ public class MyCustomPanelView extends View {
                 textPaint.setTextSize(mTextSize);
                 mTextColor =Color.rgb(30,144,255);
                 textPaint.setColor(mTextColor);
-                canvas.drawText(50 - (i/ 5) * 10 + "", mWidth / 2-20, mTikeWidth , textPaint);
+                canvas.drawText(50 - (i/ 5) * 10 + "", mWidth / 2, mTikeWidth , textPaint);
             }
 
 
