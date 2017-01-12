@@ -124,7 +124,7 @@ public class MyCustomPanelView extends View {
         }
 
         //画粗弧突出部分左端
-        canvas.drawArc(secondRectF,135,11,false,mPaint);
+        canvas.drawArc(secondRectF,135,10,false,mPaint);
 
         //画圆弧充满的部分
         canvas.drawArc(secondRectF,145,fill,false,mPaint);
@@ -135,14 +135,14 @@ public class MyCustomPanelView extends View {
         if(percent == 1){
             mPaint.setColor(mArcColor);
         }
-        canvas.drawArc(secondRectF, 144 + fill + empty, 10, false, mPaint);
+        canvas.drawArc(secondRectF, 145 + fill + empty, 10, false, mPaint);
 
         mPaint.setColor(mArcColor);
 
 
         mPaint.setStrokeWidth(mScendArcWidth);
         mPaint.setColor(Color.rgb(30,144,255));
-        canvas.drawArc(secondRectF2, 135, 269, false, mPaint);
+        canvas.drawArc(secondRectF2, 135, 270, false, mPaint);
 
 
         //绘制刻度
